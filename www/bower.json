@@ -1,0 +1,19 @@
+{
+  "name": "CodeCore_Client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CodeCore-Cohort-V/phonegap",
+  "authors": [
+    "aseckel <adam.seckel@gmail.com>"
+  ],
+  "description": "Mobile client for the Cohort V group project.",
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "~0.5.1",
+    "angular": "~1.3.2",
+    "angular-route": "~1.3.2",
+    "angular-loader": "~1.3.2"
+  },
+  "resolutions": {
+    "angular": "1.3.0"
+  }
+}
