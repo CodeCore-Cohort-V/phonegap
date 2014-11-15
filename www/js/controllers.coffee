@@ -1,1 +1,1 @@
-angular.module('CodeCoreApp.controllers', []).
+angular.module('CodeCoreApp.controllers', [])

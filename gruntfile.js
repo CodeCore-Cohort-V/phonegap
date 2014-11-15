@@ -16,9 +16,9 @@ module.exports = function(grunt) {
       scripts: {
         expand: true,
         flatten: false,
-        cwd: 'www/js/**/*',
-        src: ['*.coffee'],
-        dest: 'www/js/',
+        cwd: 'www/js',
+        src: ['**/*.coffee'],
+        dest: 'www/js',
         ext: '.js'
       },    
       views: {
