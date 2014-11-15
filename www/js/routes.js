@@ -6,6 +6,10 @@
   app.config([
     '$routeProvider', function($routeProvider) {
       $routeProvider
+      .when("/", {
+        templateUrl "../views/home/index.html.jade",
+        controller: "HomeCtrl"
+      })
       .when("/onboarding", {
         templateUrl: "../views/onboarding/onboarding.html.jade",
         controller: "OnboardingCtrl"
@@ -23,5 +27,13 @@
         controller: "BundleCtrl"
       });
     }]);
+
+  app.controller('HomeCtrl' function($scope) {
+    $scope.message = "In the HomeCtrl";
+  });
+
+  app.controller('TopicsCtrl', function($scope) {
+    $scope.message = "In the TopicsCtrl";
+  })
 
 })();

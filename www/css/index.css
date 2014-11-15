@@ -142,3 +142,16 @@ bottom: 5px;
 left: 7px;
 color: #ccc;
 font-size: 14px; }
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.homeMenu {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}

@@ -1,235 +1,65 @@
-2014-11-13 16:59:04.460 CodeCoreCordova[37867:1927960] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/0F2F42E9-8B2B-41D9-BC7A-6460C7F58E48/Library/Cookies/Cookies.binarycookies
-2014-11-13 16:59:04.585 CodeCoreCordova[37867:1927960] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 16:59:04.586 CodeCoreCordova[37867:1927960] Multi-tasking -> Device: YES, App: YES
-2014-11-13 16:59:04.616 CodeCoreCordova[37867:1927960] Unlimited access to network resources
-2014-11-13 16:59:04.621 CodeCoreCordova[37867:1927960] 
+2014-11-15 15:11:40.456 CodeCoreCordova[61664:2039867] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Data/Application/FDB1D9E0-2A66-4EBF-A5A8-BC7027BACD1C/Library/Cookies/Cookies.binarycookies
+2014-11-15 15:11:40.608 CodeCoreCordova[61664:2039867] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 15:11:40.609 CodeCoreCordova[61664:2039867] Multi-tasking -> Device: YES, App: YES
+2014-11-15 15:11:40.617 CodeCoreCordova[61664:2039867] Unlimited access to network resources
+2014-11-15 15:11:40.639 CodeCoreCordova[61664:2039867] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 
-2014-11-13 16:59:06.046 CodeCoreCordova[37867:1927960] Resetting plugins due to page load.
-2014-11-13 16:59:06.159 CodeCoreCordova[37867:1927960] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/A34F9142-35DA-466F-BBA0-FB7B15F37798/CodeCoreCordova.app/www/index.html
-2014-11-13 17:02:59.546 CodeCoreCordova[38433:1931095] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/E8341CC6-ED31-4DA1-A36C-155158739987/Library/Cookies/Cookies.binarycookies
-2014-11-13 17:02:59.645 CodeCoreCordova[38433:1931095] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 17:02:59.646 CodeCoreCordova[38433:1931095] Multi-tasking -> Device: YES, App: YES
-2014-11-13 17:02:59.654 CodeCoreCordova[38433:1931095] Unlimited access to network resources
-2014-11-13 17:02:59.657 CodeCoreCordova[38433:1931095] 
+2014-11-15 15:11:41.241 CodeCoreCordova[61664:2039867] Resetting plugins due to page load.
+2014-11-15 15:11:41.571 CodeCoreCordova[61664:2039867] Finished load of: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Bundle/Application/FFC8CEC0-1209-4C0D-8F5A-F9BA89148D57/CodeCoreCordova.app/www/index.html
+2014-11-15 15:20:01.257 CodeCoreCordova[62523:2043757] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Data/Application/475FD404-F689-43B2-8723-431AB152AF9F/Library/Cookies/Cookies.binarycookies
+2014-11-15 15:20:02.030 CodeCoreCordova[62523:2043757] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 15:20:02.031 CodeCoreCordova[62523:2043757] Multi-tasking -> Device: YES, App: YES
+2014-11-15 15:20:02.038 CodeCoreCordova[62523:2043757] Unlimited access to network resources
+2014-11-15 15:20:02.049 CodeCoreCordova[62523:2043757] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 
-2014-11-13 17:03:00.023 CodeCoreCordova[38433:1931095] Resetting plugins due to page load.
-2014-11-13 17:03:00.097 CodeCoreCordova[38433:1931095] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/BDF4CF12-1C1D-4E51-BE70-DAEAC1532497/CodeCoreCordova.app/www/index.html
-2014-11-13 17:03:12.498 CodeCoreCordova[38433:1931253] Terminating since there is no system app.
-2014-11-13 17:03:40.025 CodeCoreCordova[38712:1932594] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/9F0D927F-6F2A-40AD-97D5-32322CDCAB29/Library/Cookies/Cookies.binarycookies
-2014-11-13 17:03:40.130 CodeCoreCordova[38712:1932594] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 17:03:40.130 CodeCoreCordova[38712:1932594] Multi-tasking -> Device: YES, App: YES
-2014-11-13 17:03:40.139 CodeCoreCordova[38712:1932594] Unlimited access to network resources
-2014-11-13 17:03:40.143 CodeCoreCordova[38712:1932594] 
+2014-11-15 15:20:02.560 CodeCoreCordova[62523:2043757] Resetting plugins due to page load.
+2014-11-15 15:20:02.766 CodeCoreCordova[62523:2043757] Finished load of: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Bundle/Application/C75256B8-9BBE-4EC2-8F1C-E934346A4068/CodeCoreCordova.app/www/index.html
+2014-11-15 15:21:23.364 CodeCoreCordova[63290:2045293] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Data/Application/77AFC3C9-F07F-47D0-BAEF-8C2B9BA072DC/Library/Cookies/Cookies.binarycookies
+2014-11-15 15:21:23.652 CodeCoreCordova[63290:2045293] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 15:21:23.653 CodeCoreCordova[63290:2045293] Multi-tasking -> Device: YES, App: YES
+2014-11-15 15:21:23.661 CodeCoreCordova[63290:2045293] Unlimited access to network resources
+2014-11-15 15:21:23.665 CodeCoreCordova[63290:2045293] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 
-2014-11-13 17:03:40.445 CodeCoreCordova[38712:1932594] Resetting plugins due to page load.
-2014-11-13 17:03:40.496 CodeCoreCordova[38712:1932594] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/C5093AA5-2DDC-4CA6-B22C-196833C75E1E/CodeCoreCordova.app/www/index.html
-2014-11-13 17:07:37.748 CodeCoreCordova[39163:1935840] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/5B951EA8-DAB4-458F-A026-1CAAFDECAFB9/Library/Cookies/Cookies.binarycookies
-2014-11-13 17:07:37.840 CodeCoreCordova[39163:1935840] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 17:07:37.840 CodeCoreCordova[39163:1935840] Multi-tasking -> Device: YES, App: YES
-2014-11-13 17:07:37.848 CodeCoreCordova[39163:1935840] Unlimited access to network resources
-2014-11-13 17:07:37.852 CodeCoreCordova[39163:1935840] 
+2014-11-15 15:21:24.061 CodeCoreCordova[63290:2045293] Resetting plugins due to page load.
+2014-11-15 15:21:24.291 CodeCoreCordova[63290:2045293] Finished load of: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Bundle/Application/4A321494-6855-48C9-8737-0FC99F96EF6F/CodeCoreCordova.app/www/index.html
+2014-11-15 15:22:44.037 CodeCoreCordova[64096:2046886] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Data/Application/6C3E153F-2F25-4B60-A694-523A7056C032/Library/Cookies/Cookies.binarycookies
+2014-11-15 15:22:44.633 CodeCoreCordova[64096:2046886] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 15:22:44.634 CodeCoreCordova[64096:2046886] Multi-tasking -> Device: YES, App: YES
+2014-11-15 15:22:44.642 CodeCoreCordova[64096:2046886] Unlimited access to network resources
+2014-11-15 15:22:44.645 CodeCoreCordova[64096:2046886] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 
-2014-11-13 17:07:38.129 CodeCoreCordova[39163:1935840] Resetting plugins due to page load.
-2014-11-13 17:07:38.190 CodeCoreCordova[39163:1935840] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/01FA425D-28E7-4271-A90B-F83651F599FA/CodeCoreCordova.app/www/index.html
-2014-11-13 17:19:51.225 CodeCoreCordova[40490:1946741] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/0CF31633-1415-4035-A26D-50462257CB51/Library/Cookies/Cookies.binarycookies
-2014-11-13 17:19:51.442 CodeCoreCordova[40490:1946741] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 17:19:51.443 CodeCoreCordova[40490:1946741] Multi-tasking -> Device: YES, App: YES
-2014-11-13 17:19:51.450 CodeCoreCordova[40490:1946741] Unlimited access to network resources
-2014-11-13 17:19:51.456 CodeCoreCordova[40490:1946741] 
+2014-11-15 15:22:45.180 CodeCoreCordova[64096:2046886] Resetting plugins due to page load.
+2014-11-15 15:22:45.362 CodeCoreCordova[64096:2046886] Finished load of: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Bundle/Application/7167F5A3-F63D-4A84-87C7-F429BE0C5380/CodeCoreCordova.app/www/index.html
+2014-11-15 15:23:16.584 CodeCoreCordova[64863:2048392] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Data/Application/A7813605-A340-40FC-A221-6AB6CDC540B0/Library/Cookies/Cookies.binarycookies
+2014-11-15 15:23:16.712 CodeCoreCordova[64863:2048392] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 15:23:16.712 CodeCoreCordova[64863:2048392] Multi-tasking -> Device: YES, App: YES
+2014-11-15 15:23:16.718 CodeCoreCordova[64863:2048392] Unlimited access to network resources
+2014-11-15 15:23:16.721 CodeCoreCordova[64863:2048392] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 
-2014-11-13 17:19:51.729 CodeCoreCordova[40490:1946741] Resetting plugins due to page load.
-2014-11-13 17:19:51.788 CodeCoreCordova[40490:1946741] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/AC0FD059-090E-4100-9168-E281B61BBF22/CodeCoreCordova.app/www/index.html
-2014-11-13 17:20:40.705 CodeCoreCordova[40739:1948492] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/02B40090-4F2F-42F5-9D8E-029CED91247B/Library/Cookies/Cookies.binarycookies
-2014-11-13 17:20:40.802 CodeCoreCordova[40739:1948492] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-13 17:20:40.802 CodeCoreCordova[40739:1948492] Multi-tasking -> Device: YES, App: YES
-2014-11-13 17:20:40.809 CodeCoreCordova[40739:1948492] Unlimited access to network resources
-2014-11-13 17:20:40.814 CodeCoreCordova[40739:1948492] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-13 17:20:41.069 CodeCoreCordova[40739:1948492] Resetting plugins due to page load.
-2014-11-13 17:20:41.126 CodeCoreCordova[40739:1948492] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/946535C4-014A-445D-BA61-2406F878136D/CodeCoreCordova.app/www/index.html
-2014-11-15 11:44:46.764 CodeCoreCordova[4828:94025] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/25ACE75B-71E5-4C75-A9B0-44F162062DE7/Library/Cookies/Cookies.binarycookies
-2014-11-15 11:44:46.853 CodeCoreCordova[4828:94025] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 11:44:46.853 CodeCoreCordova[4828:94025] Multi-tasking -> Device: YES, App: YES
-2014-11-15 11:44:46.860 CodeCoreCordova[4828:94025] Unlimited access to network resources
-2014-11-15 11:44:46.863 CodeCoreCordova[4828:94025] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 11:44:47.221 CodeCoreCordova[4828:94025] Resetting plugins due to page load.
-2014-11-15 11:44:47.353 CodeCoreCordova[4828:94025] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/C7789523-2CF8-4B41-9D7D-B0C70AC5E212/CodeCoreCordova.app/www/index.html
-2014-11-15 11:45:25.712 CodeCoreCordova[5255:96007] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/DACF8C45-0A76-433E-8D7D-66F25C66FCEA/Library/Cookies/Cookies.binarycookies
-2014-11-15 11:45:25.790 CodeCoreCordova[5255:96007] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 11:45:25.790 CodeCoreCordova[5255:96007] Multi-tasking -> Device: YES, App: YES
-2014-11-15 11:45:25.795 CodeCoreCordova[5255:96007] Unlimited access to network resources
-2014-11-15 11:45:25.798 CodeCoreCordova[5255:96007] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 11:45:26.035 CodeCoreCordova[5255:96007] Resetting plugins due to page load.
-2014-11-15 11:45:26.137 CodeCoreCordova[5255:96007] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/B9DDE31E-B8E4-45A9-9B4B-10894FEE4623/CodeCoreCordova.app/www/index.html
-2014-11-15 12:19:30.322 CodeCoreCordova[5583:117744] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/03AE414E-F848-47B4-845A-D1D5CBC1CBEB/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:19:30.413 CodeCoreCordova[5583:117744] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:19:30.414 CodeCoreCordova[5583:117744] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:19:30.420 CodeCoreCordova[5583:117744] Unlimited access to network resources
-2014-11-15 12:19:30.423 CodeCoreCordova[5583:117744] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:19:30.801 CodeCoreCordova[5583:117744] Resetting plugins due to page load.
-2014-11-15 12:19:30.878 CodeCoreCordova[5583:117744] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/32381D60-2A41-4F52-A173-E79FBBCBDE9E/CodeCoreCordova.app/www/index.html
-2014-11-15 12:20:01.634 CodeCoreCordova[5846:118769] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/6FB23113-44E4-4D14-954B-4B4165C8FCC2/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:20:01.727 CodeCoreCordova[5846:118769] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:20:01.728 CodeCoreCordova[5846:118769] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:20:01.735 CodeCoreCordova[5846:118769] Unlimited access to network resources
-2014-11-15 12:20:01.738 CodeCoreCordova[5846:118769] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:20:02.063 CodeCoreCordova[5846:118769] Resetting plugins due to page load.
-2014-11-15 12:20:02.156 CodeCoreCordova[5846:118769] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/7C17CBB7-21A8-4EEF-AE74-34BC92068279/CodeCoreCordova.app/www/index.html
-2014-11-15 12:20:43.957 CodeCoreCordova[6107:119483] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/21379BA4-9A73-4185-B6CE-674151E76A9E/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:20:44.049 CodeCoreCordova[6107:119483] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:20:44.049 CodeCoreCordova[6107:119483] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:20:44.054 CodeCoreCordova[6107:119483] Unlimited access to network resources
-2014-11-15 12:20:44.057 CodeCoreCordova[6107:119483] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:20:44.483 CodeCoreCordova[6107:119483] Resetting plugins due to page load.
-2014-11-15 12:20:44.596 CodeCoreCordova[6107:119483] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/0B3E76D9-3A51-4794-8A51-8FB578146114/CodeCoreCordova.app/www/index.html
-2014-11-15 12:30:06.383 CodeCoreCordova[7176:126227] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/FBE44E01-2A2D-440A-9912-E590C9CF3FA0/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:30:06.472 CodeCoreCordova[7176:126227] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:30:06.473 CodeCoreCordova[7176:126227] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:30:06.478 CodeCoreCordova[7176:126227] Unlimited access to network resources
-2014-11-15 12:30:06.481 CodeCoreCordova[7176:126227] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:30:06.775 CodeCoreCordova[7176:126227] Resetting plugins due to page load.
-2014-11-15 12:30:07.014 CodeCoreCordova[7176:126227] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/81F07DFC-B988-474E-B335-94A58E66C02C/CodeCoreCordova.app/www/index.html
-2014-11-15 12:33:18.509 CodeCoreCordova[7890:129724] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/DC7AEA49-95A3-4F4D-9A80-BA60A8AB84A8/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:33:18.600 CodeCoreCordova[7890:129724] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:33:18.601 CodeCoreCordova[7890:129724] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:33:18.606 CodeCoreCordova[7890:129724] Unlimited access to network resources
-2014-11-15 12:33:18.609 CodeCoreCordova[7890:129724] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:33:18.850 CodeCoreCordova[7890:129724] Resetting plugins due to page load.
-2014-11-15 12:33:19.140 CodeCoreCordova[7890:129724] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/A013B95B-75A1-47D4-AB28-440428398526/CodeCoreCordova.app/www/index.html
-2014-11-15 12:36:54.685 CodeCoreCordova[8597:133414] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/1C2BBFE8-295B-454F-9947-E353D5811C89/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:36:54.767 CodeCoreCordova[8597:133414] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:36:54.767 CodeCoreCordova[8597:133414] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:36:54.775 CodeCoreCordova[8597:133414] Unlimited access to network resources
-2014-11-15 12:36:54.777 CodeCoreCordova[8597:133414] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:36:55.117 CodeCoreCordova[8597:133414] Resetting plugins due to page load.
-2014-11-15 12:36:55.358 CodeCoreCordova[8597:133414] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/F42AEE98-D3DE-444F-8EB2-F9FB5D7E7995/CodeCoreCordova.app/www/index.html
-2014-11-15 12:44:45.889 CodeCoreCordova[9304:138507] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/8C23F6EE-B58C-4907-B4FA-46F1531E827C/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:44:45.976 CodeCoreCordova[9304:138507] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:44:45.977 CodeCoreCordova[9304:138507] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:44:45.983 CodeCoreCordova[9304:138507] Unlimited access to network resources
-2014-11-15 12:44:45.986 CodeCoreCordova[9304:138507] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:44:46.370 CodeCoreCordova[9304:138507] Resetting plugins due to page load.
-2014-11-15 12:44:46.581 CodeCoreCordova[9304:138507] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/4CE2E5D8-D91C-499A-AA2A-C0CDAE840867/CodeCoreCordova.app/www/index.html
-2014-11-15 12:53:03.698 CodeCoreCordova[10017:144404] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/D428BF46-5958-400E-8E49-1AA5CA8FEC74/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:53:03.946 CodeCoreCordova[10017:144404] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:53:03.948 CodeCoreCordova[10017:144404] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:53:03.966 CodeCoreCordova[10017:144404] Unlimited access to network resources
-2014-11-15 12:53:03.974 CodeCoreCordova[10017:144404] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:53:04.946 CodeCoreCordova[10017:144404] Resetting plugins due to page load.
-2014-11-15 12:53:05.501 CodeCoreCordova[10017:144404] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/AC549C98-58C5-4792-B041-733E2240EA5B/CodeCoreCordova.app/www/index.html
-2014-11-15 12:55:43.972 CodeCoreCordova[10722:146431] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/91E505D5-E7A3-4C96-80D5-47A72CD3CDD6/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:55:44.159 CodeCoreCordova[10722:146431] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:55:44.161 CodeCoreCordova[10722:146431] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:55:44.174 CodeCoreCordova[10722:146431] Unlimited access to network resources
-2014-11-15 12:55:44.182 CodeCoreCordova[10722:146431] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:55:45.062 CodeCoreCordova[10722:146431] Resetting plugins due to page load.
-2014-11-15 12:55:45.580 CodeCoreCordova[10722:146431] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/57197ACD-FDDC-4872-A0EB-80091B45C4AD/CodeCoreCordova.app/www/index.html
-2014-11-15 12:56:59.448 CodeCoreCordova[11427:148024] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Data/Application/C79722EA-FE2B-4E39-B885-AE6262032B1E/Library/Cookies/Cookies.binarycookies
-2014-11-15 12:56:59.674 CodeCoreCordova[11427:148024] Apache Cordova native platform version 3.6.3 is starting.
-2014-11-15 12:56:59.676 CodeCoreCordova[11427:148024] Multi-tasking -> Device: YES, App: YES
-2014-11-15 12:56:59.695 CodeCoreCordova[11427:148024] Unlimited access to network resources
-2014-11-15 12:56:59.704 CodeCoreCordova[11427:148024] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-11-15 12:57:00.731 CodeCoreCordova[11427:148024] Resetting plugins due to page load.
-2014-11-15 12:57:01.288 CodeCoreCordova[11427:148024] Finished load of: file:///Users/adamseckel/Library/Developer/CoreSimulator/Devices/B69263D1-968D-4699-84D7-B83B0BACAF17/data/Containers/Bundle/Application/D3645267-2C09-4CB8-BAB7-AC326B351652/CodeCoreCordova.app/www/index.html
+2014-11-15 15:23:17.039 CodeCoreCordova[64863:2048392] Resetting plugins due to page load.
+2014-11-15 15:23:17.320 CodeCoreCordova[64863:2048392] Finished load of: file:///Users/halfdanhem/Library/Developer/CoreSimulator/Devices/100050EB-55C4-45C6-BDF2-E58FF3A6E161/data/Containers/Bundle/Application/58AF56FC-E045-4102-BBEC-D1D47CE6F1C4/CodeCoreCordova.app/www/index.html
