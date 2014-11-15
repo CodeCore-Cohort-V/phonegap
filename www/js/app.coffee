@@ -1,3 +1,1 @@
-angular.module("CodeCoreApp",[
-  "CodeCoreApp.controllers"
-]);
+angular.module 'quizApp', [ 'ngMaterial' ] 
