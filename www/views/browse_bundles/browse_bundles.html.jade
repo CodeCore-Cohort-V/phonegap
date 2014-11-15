@@ -1,1 +1,25 @@
-h1 Browse
+h1 Browse Topics
+.init(ng-init="topics = [
+  {name:'Ruby'},
+  {name:'Node},
+  {name:'HMLT5'},
+  {name:'CSS'},
+]")
+.topics
+  .topic(ng-repeat="topics in topics"){{name}}
+    h1{{name}} 
+
+<h1> Browse Topics </h1>
+<div init(ng-init="topics = [
+  {name:'Ruby'},
+  {name:'Node},
+  {name:'HMLT5'},
+  {name:'CSS'},
+]")>
+</div>
+<div class="topics">
+  <div class="topic" ng-repeat="topics in topics">
+    <h1>{{name}}</h1> 
+  </div>
+</div>
+
