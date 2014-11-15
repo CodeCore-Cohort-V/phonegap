@@ -48,24 +48,23 @@
             </md-content>
         </div> -->
 
-        <h1> Browse Topics </h1>
-        <div ng-init="topics = [
-              {name:'Ruby'},
-              {name:'Node'},
-              {name:'HMLT5'},
-              {name:'CSS'},
+        <h1> QuizApp </h1>
+        <div ng-init="homeMenu = [
+              {name:'Browse All Topics'},
+              {name:'Start Quizzing!'}
             ]">
         </div>
-        <div class="topics">
-            <div class="topic" ng-repeat="topic in topics">
-                <md-button class="md-raised md-default">{{topic.name}}</md-button>
-            <br>
-            <br>
-      
+        <div class= "main">
+            <div class="homeMenu">
+                <div class="homeMenuOption" ng-repeat="homeMenuOption in homeMenu">
+                    <md-button class="md-raised md-default">{{homeMenuOption.name}}</md-button>
+                <br>
+                <br>
+          
+                </div>
+
             </div>
-
         </div>
-
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         

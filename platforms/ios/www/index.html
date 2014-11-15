@@ -36,7 +36,7 @@
 
     </head>
     <body ng-app="quizApp">
-        <div class="app">
+<!--         <div class="app">
             <h1>CODECORE</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
@@ -46,21 +46,24 @@
                 <md-button class="md-raised md-warn">Primary</md-button>
                 <md-button class="md-raised md-primary">Warn</md-button>
             </md-content>
-        
+        </div> -->
 
-        <h1> Browse Topics </h1>
-        <div ng-init="topics = [
-              {name:'Ruby'},
-              {name:'Node},
-              {name:'HMLT5'},
-              {name:'CSS'},
+        <h1> QuizApp </h1>
+        <div ng-init="homeMenu = [
+              {name:'Browse All Topics'},
+              {name:'Start Quizzing!'}
             ]">
         </div>
-        <div class="topics">
-            <div class="topic" ng-repeat="topics in topics">
-                <h1>{{name}}</h1> 
+        <div class= "main">
+            <div class="homeMenu">
+                <div class="homeMenuOption" ng-repeat="homeMenuOption in homeMenu">
+                    <md-button class="md-raised md-default">{{homeMenuOption.name}}</md-button>
+                <br>
+                <br>
+          
+                </div>
+
             </div>
-        </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
