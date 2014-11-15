@@ -13,15 +13,23 @@ module.exports = function(grunt) {
       }
     },
     coffee: {
-      glob_to_multiple: {
+      scripts: {
         expand: true,
         flatten: false,
-        cwd: 'www/js',
+        cwd: 'www/js/**/*',
         src: ['*.coffee'],
         dest: 'www/js/',
         ext: '.js'
-      }
-    },
+      },    
+      views: {
+        expand: true,
+        flatten: false,
+        cwd: 'www/views',
+        src: ['**/*.coffee'],
+        dest: 'www/views',
+        ext: '.js'
+      }    
+    },    
     watch: {
       styles: {
         files: ['www/css/**/*.less'], // which files to watch
@@ -30,8 +38,13 @@ module.exports = function(grunt) {
       scripts: {
         files: ['www/js/**/*.coffee'],
         tasks: ['coffee']
+      },      
+      views: {
+        files: ['www/views/**/*.coffee'],
+        tasks: ['coffee']
       }
     }
+  })
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-coffee');
