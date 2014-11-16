@@ -5,13 +5,12 @@ quizApp.factory('apiTopicsFactory', ['$http', ($http)->
   topics = [{id: 2, name: "Ruby"}, {id: 3, name: "OOP"}, {id: 4 , name:"JavaScript"}, {id: 5 , name:"HTML5"}, {id: 6 , name:"CSS3"}]
 
   getTopics = -> 
-    # $http.get("http://glacial-peak-2160.herokuapp.com/api/topics").success((data) ->
-    #   return data;
-    # )
+    $http.get("http://glacial-peak-2160.herokuapp.com/api/topics").success((data) ->
+      return data.topics;
+    )
 
 
-  getTopics1 = (num) -> 
-    topics.push(num)
+  getTopics1 = -> 
     return topics
   
   return getTopics1

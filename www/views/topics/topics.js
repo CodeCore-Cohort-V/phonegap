@@ -24,9 +24,12 @@
           name: "CSS3"
         }
       ];
-      getTopics = function() {};
-      getTopics1 = function(num) {
-        topics.push(num);
+      getTopics = function() {
+        return $http.get("http://glacial-peak-2160.herokuapp.com/api/topics").success(function(data) {
+          return data.topics;
+        });
+      };
+      getTopics1 = function() {
         return topics;
       };
       return getTopics1;
