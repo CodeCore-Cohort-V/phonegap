@@ -1,21 +1,24 @@
 (function() {
-  var app;
+  var TopicsFactory, app;
 
   app = angular.module("quizApp");
 
-  app.factory('Topics', !function() {
+  TopicsFactory = function() {
     var getTopics, topics;
     topics = ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"];
     getTopics = function() {
       return topics;
     };
-    return true;
-  });
+    return topics;
+  };
+
+  app.factory('Topics', TopicsFactory);
 
   app.controller('TopicsListController', [
     'Topics', '$scope', function(Topics, $scope) {
       $scope.list = Topics.getTopics();
-      return $scope.message = 'Inside the topics controller';
+      $scope.message = 'Inside the topics controller';
+      debugger;
     }
   ]);
 
