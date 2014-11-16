@@ -157,3 +157,6 @@ font-size: 14px; }
 .ruby{
     background-color: red;
 }
+.queued {
+    background-color: #E8E8E8 !important;
+}
