@@ -3,58 +3,64 @@
 
   quizApp = angular.module("quizApp");
 
-  quizApp.factory('apiTopicsFactory', function() {
-    var getTopics, getTopics1, topics;
-    topics = [
-      {
-        id: 2,
-        name: "Ruby"
-      }, {
-        id: 3,
-        name: "OOP"
-      }, {
-        id: 4,
-        name: "JavaScript"
-      }, {
-        id: 5,
-        name: "HTML5"
-      }, {
-        id: 6,
-        name: "CSS3"
-      }
-    ];
-    getTopics = function() {
-      return topics;
-    };
-    getTopics1 = function(num) {
-      topics.push(num);
-      return topics;
-    };
-    return getTopics;
-  });
+  quizApp.factory('apiTopicsFactory', [
+    '$http', function($http) {
+      var getTopics, getTopics1, topics;
+      topics = [
+        {
+          id: 2,
+          name: "Ruby"
+        }, {
+          id: 3,
+          name: "OOP"
+        }, {
+          id: 4,
+          name: "JavaScript"
+        }, {
+          id: 5,
+          name: "HTML5"
+        }, {
+          id: 6,
+          name: "CSS3"
+        }
+      ];
+      getTopics = function() {
+        return $http.get("https://glacial-peak-2160.herokuapp.com/api/topics").success(function(data) {
+          return data;
+        });
+      };
+      getTopics1 = function(num) {
+        topics.push(num);
+        return topics;
+      };
+      return getTopics;
+    }
+  ]);
 
-  quizApp.factory('apiBundlesFactory', function() {
-    var bundles, getBundles;
-    bundles = [
-      {
-        id: 1,
-        topic_id: 1,
-        name: "Ruby Basics",
-        difficulty: "easy"
-      }, {
-        id: 2,
-        topic_id: 1,
-        name: "Ruby PRO",
-        difficulty: "hard"
-      }
-    ];
-    getBundles = function(topicId) {
-      return _.where(bundles, function(bundle) {
-        return bundle.topic_id === topicId;
-      });
-    };
-    return getBundles;
-  });
+  quizApp.factory('apiBundlesFactory', [
+    '$http', function($http) {
+      var bundles, getBundles;
+      bundles = [
+        {
+          id: 1,
+          topic_id: 1,
+          name: "Ruby Basics",
+          difficulty: "easy"
+        }, {
+          id: 2,
+          topic_id: 1,
+          name: "Ruby PRO",
+          difficulty: "hard"
+        }
+      ];
+      getBundles = function(topicId) {
+        return _.filter(bundles, function(bundle) {
+          return bundle.topic_id === topicId;
+        });
+      };
+      return getBundles;
+    }
+  ]);
 
   quizApp.controller('TopicsListController', [
     'apiTopicsFactory', 'apiBundlesFactory', '$scope', function(apiTopicsFactory, apiBundlesFactory, $scope) {
