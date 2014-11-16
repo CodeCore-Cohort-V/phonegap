@@ -5,7 +5,6 @@
 
   quizApp.factory('apiTopicsFactory', function() {
     var getTopics, getTopics1, topics;
-
     topics = [
       {
         id: 2,
@@ -39,7 +38,7 @@
     bundles = [
       {
         id: 1,
-        topicId: 1,
+        topic_id: 1,
         name: "Ruby Basics",
         difficulty: "easy"
       }, {
@@ -50,10 +49,8 @@
       }
     ];
     getBundles = function(topicId) {
-      return _.filter(bundles, function(bundle) {
-        if (bundle.id === topicId) {
-
-        }
+      return _.where(bundles, function(bundle) {
+        return bundle.topic_id === topicId;
       });
     };
     return getBundles;

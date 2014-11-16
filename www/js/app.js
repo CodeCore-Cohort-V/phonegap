@@ -50,7 +50,9 @@
       views:{ 
         "content2": {
           templateUrl: "views/topics/topicsList.html",
-          controller: function($scope) {
+          controller: function($scope, apiBundlesFactory) {
+            getBundles = apiBundlesFactory;
+            $scope.bundles = getBundles(2);
             $scope.items = ["A", "SECOND", "list","Of", "Items"];
           }
         }
