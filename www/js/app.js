@@ -30,6 +30,10 @@
       url: "/home",
       templateUrl: "views/home/home.html"
     })
+    .state('topics', {
+      url: "/topics",
+      templateUrl: "views/topics/topics.html"
+    })
     .state('state1.list', {
       url: "/list",
       templateUrl: "views/state1.list.html",
