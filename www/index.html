@@ -18,69 +18,63 @@
      KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
--->
-<html>
-<head>
+  -->
+  <html>
+  <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-material/themes/indigo-theme.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-material/themes/red-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 
     <title>Hello World</title>
 
 
 
-</head>
-<body ng-app="quizApp">
-  <md-toolbar>
-  <br>
-    <div layout="horizontal md-toolbar-tools">
-      <md-button class="md-default md-toolbar-tools" ui-sref="bundles">Browse</md-button>
-      <md-button class="md-default md-toolbar-tools" ui-sref="topics">Topics</md-button>
-      <md-button class="md-default md-toolbar-tools" ui-sref="home">Home</md-button>
-    </div>
-  </md-toolbar>
+  </head>
+  <body ng-app="quizApp" layout="vertical" layout-fill>
+    <md-toolbar scroll-shrink md-theme="indigo">
+      <div>
 
-  <div ui-view>
-    <h1> QuizApp </h1>
-    <div ng-init="homeMenu = [
-        {name:'Browse All Topics'},
-        {name:'Start Quizzing!'}
-        ]">
-    </div>
-    <div class= "main">
-        <div class="homeMenu">      
+        <md-button class="md-default md-toolbar-tools" ui-sref="home">
+          <br>
+          QUIZZAPP
+        </md-button>
+      </div>
+    </md-toolbar>
 
-        </div>
-    </div>
-  </div>
-    <!-- Cordova Included Scripts -->
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
 
-    <!-- Vendor Scripts -->
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/hammerjs/hammer.js"></script>
-    <script src="bower_components/angular-material/angular-material.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <script type="text/javascript" src="bower_components/jade/jade.js"></script>
-    <!-- Our Scripts -->
-    <script type="text/javascript" src="js/app.js"></script>
-    <script src="views/topics/topics.js"
-   
+    <md-content ui-view></md-content>
 
-    <script type="text/javascript">
-        app.initialize();
-    </script>  
-    
+
+<!-- Cordova Included Scripts -->
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!-- Vendor Scripts -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/hammerjs/hammer.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="bower_components/jade/jade.js"></script>
+<!-- Our Scripts -->
+<script type="text/javascript" src="js/app.js"></script>
+<script src="views/topics/topics.js"
+
+
+<script type="text/javascript">
+  app.initialize();
+</script>  
+
 
 
 </body>

@@ -20,7 +20,7 @@
   $stateProvider
     .state('bundles', {
       url: "/bundles",
-      templateUrl: "views/browse_bundles/browse_bundles.html.jade"
+      templateUrl: "views/browse_bundles/browse_bundles.html"
     })
     .state('quizzing', {
       url: "/quizzing",

@@ -1,5 +1,59 @@
-div(class="md-button-group" layout="vertical")
-  md-button(class="md-default" ui-sref="bundles")  Browse Bundles
-  md-button(class="md-default" ui-sref="quizzing") Start Quiz
-  md-button(class="md-default" ui-sref="quizzing") Fuck Goats
+div(layout="vertical" md-theme="indigo")
+  md-subheader(md-theme="red" layout-align="center center" class="md-toolbar-tools queued") 
+    | Explore
+  md-list
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="topics" layout layout-align="center center")  
+                h3 Topics
+
+
+div(layout="vertical" md-theme="indigo")
+  md-subheader(layout-align="center center" class="md-toolbar-tools queued") 
+    |Top Queued
+  md-list
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 Ruby On Rails lvl. 3
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 Node.js lvl. 2
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 CSS lvl. 7
+
+div(layout="vertical" md-theme="indigo")
+  md-subheader(md-theme="red" layout-align="center center" class="md-toolbar-tools queued") 
+    | New
+  md-list
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 Rspec
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 Ruby Gems
+      md-item
+        md-card  
+          md-item-content
+            .md-tile-content
+              md-button(class="" ui-sref="bundles" layout layout-align="center center")  
+                h3 HTML5
+
 
