@@ -1,15 +1,46 @@
 (function() {
-  var app;
+  // var app;
 
-  angular.module('quizApp', ['ngMaterial', 'ngRoute']);
+  // angular.module('quizApp', ['ngMaterial', 'ngRoute']);
 
-  app = angular.module('quizApp');
+  var app = angular.module('quizApp', ['ngMaterial', 'ngRoute', 'ui.router']);
 
   app.controller('YourController', ['$scope', '$location',function($scope, $location){ 
     $scope.goNext = function (hash) { 
       $location.path(hash);
     }
   }]);
+
+  app.config(function($stateProvider, $urlRouterProvider) {
+  //
+  // For any unmatched url, redirect to /state1
+  $urlRouterProvider.otherwise("/state1");
+  //
+  // Now set up the states
+  $stateProvider
+    .state('state1', {
+      url: "/state1",
+      templateUrl: "views/state1.html"
+    })
+    .state('state1.list', {
+      url: "/list",
+      templateUrl: "views/state1.list.html",
+      controller: function($scope) {
+        $scope.items = ["A", "List", "Of", "Items"];
+      }
+    })
+    .state('state2', {
+      url: "/state2",
+      templateUrl: "views/state2.html"
+    })
+    .state('state2.list', {
+      url: "/list",
+      templateUrl: "views/state2.list.html",
+      controller: function($scope) {
+        $scope.things = ["A", "Set", "Of", "Things"];
+      }
+    });
+  });
 
 
 }).call(this);
