@@ -24,16 +24,12 @@
           name: "CSS3"
         }
       ];
-      getTopics = function() {
-        return $http.get("https://glacial-peak-2160.herokuapp.com/api/topics").success(function(data) {
-          return data;
-        });
-      };
+      getTopics = function() {};
       getTopics1 = function(num) {
         topics.push(num);
         return topics;
       };
-      return getTopics;
+      return getTopics1;
     }
   ]);
 
@@ -48,7 +44,7 @@
           difficulty: "easy"
         }, {
           id: 2,
-          topic_id: 1,
+          topic_id: 2,
           name: "Ruby PRO",
           difficulty: "hard"
         }
