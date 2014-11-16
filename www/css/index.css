@@ -40,7 +40,6 @@ body {
     font-size:12px;
     height:100%;
     margin:0px;
-    overflow-y:scroll;
     padding:0px;
     text-transform:uppercase;
     width:100%;
@@ -154,4 +153,7 @@ font-size: 14px; }
     text-align: center;
     vertical-align: middle;
     height: 100%;
+}
+.ruby{
+    background-color: red;
 }

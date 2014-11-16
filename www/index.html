@@ -35,29 +35,21 @@
 
 
 </head>
-<body ng-app="quizApp">
+<body ng-app="quizApp" layout="vertical" layout-fill>
   <md-toolbar>
-  <br>
-    <div layout="horizontal md-toolbar-tools">
-      <md-button class="md-default md-toolbar-tools" ui-sref="bundles">Browse</md-button>
-      <md-button class="md-default md-toolbar-tools" ui-sref="topics">Topics</md-button>
-      <md-button class="md-default md-toolbar-tools" ui-sref="home">Home</md-button>
+    <div class="md-toolbar-tools">
+
+      <md-button class="md-default md-toolbar-tools" ui-sref="home">
+        <br>
+        QUIZZAPP
+      </md-button>
     </div>
   </md-toolbar>
 
-  <div ui-view>
-    <h1> QuizApp </h1>
-    <div ng-init="homeMenu = [
-        {name:'Browse All Topics'},
-        {name:'Start Quizzing!'}
-        ]">
-    </div>
-    <div class= "main">
-        <div class="homeMenu">      
 
-        </div>
-    </div>
-  </div>
+  <md-content ui-view></md-content>
+
+
     <!-- Cordova Included Scripts -->
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

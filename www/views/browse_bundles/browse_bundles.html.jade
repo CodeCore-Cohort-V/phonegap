@@ -1,4 +1,9 @@
-h1 Browse Topics
+div(ng-init="topics=[{name:'Ruby', blurb:'Ruby is a coder-friendly language that is widely used and loved for its literal syntax',logo:'ruby'},{name:'Node.js', blurb:'Node.js is super cool and way more fly than normal JS',logo:'node'},{name:'CSS', blurb:'CSS is like a dating a really attractive but dumb person: you get to enjoy the pretty, but you drive yourself insane keeping it together',logo:'css'},{name:'Rails', blurb:'Rails is pretty neat, unless rspec.',logo:'css'},{name:'Cats', blurb:'Because Cats?.',logo:'css'},{name:'HTML5', blurb:'The shit you can do with HTML5 these days...unreal',logo:'HTML5'},{name:'HTML5', blurb:'The shit you can do with HTML5 these days...unreal',logo:'HTML5'}]")
 
-
-
+div(layout="vertical" layout-fill layout-padding)
+  md-list
+    md-item(ng-repeat="topic in topics")
+      md-button(class="md-whiteframe-z1 {{topic.name}}" layout )
+        h1 {{topic.name}}
+      br
+          
