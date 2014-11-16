@@ -44,6 +44,7 @@
           }
         }
       }
+    // RUBY
     }).state('topics.list2', {
       url: "/list",
       views:{ 
