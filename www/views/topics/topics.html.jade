@@ -1,5 +1,10 @@
-div(ng-controller="TopicsListController as topics") 
+div(ng-controller="TopicsListController as topics" layout="vertical") 
   h1 These are the topics nijacka
   div(ng-repeat="topic in topics.list")
-    h1 {{topic}}
+    md-button(ng-click='somefunc(topic)')
+      h1{{topic.name}}
+    div(ng-show='when you click topic')
+      md-button(ng-repeat="topics.getBundles(topic)")
+        h3 {{bundle.name}} | {{bundle.difficulty}}
+
   p This is the message: {{topics.message}}

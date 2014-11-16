@@ -4,21 +4,64 @@
   quizApp = angular.module("quizApp");
 
   quizApp.factory('apiTopicsFactory', function() {
-    var topics;
-    topics = ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"];
-    this.getTopics = function() {
+    var getTopics, getTopics1, topics;
+    topics = [
+      {
+        id: 2,
+        name: "Ruby"
+      }, {
+        id: 3,
+        name: "OOP"
+      }, {
+        id: 4,
+        name: "JavaScript"
+      }, {
+        id: 5,
+        name: "HTML5"
+      }, {
+        id: 6,
+        name: "CSS3"
+      }
+    ];
+    getTopics = function() {
       return topics;
     };
-    return topics;
+    getTopics1 = function(num) {
+      topics.push(num);
+      return topics;
+    };
+    return getTopics;
   });
 
-  quizApp.constant('topicsList', ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"]);
+  quizApp.factory('apiBundlesFactory', function() {
+    var bundles, getBundles;
+    bundles = [
+      {
+        id: 1,
+        topicId: 1,
+        name: "Ruby Basics",
+        difficulty: "easy"
+      }, {
+        id: 2,
+        topic_id: 1,
+        name: "Ruby PRO",
+        difficulty: "hard"
+      }
+    ];
+    getBundles = function(topicId) {
+      return _filter;
+    };
+    return getBundles;
+  });
 
   quizApp.controller('TopicsListController', [
-    'apiTopicsFactory', '$scope', 'topicsList', function(apiTopicsFactory, topicsList, $scope) {
-      this.message = 'Inside the topics controller';
-      this.list = apiTopicsFactory;
-      debugger;
+    'apiTopicsFactory', 'apiBundlesFactory', '$scope', function(apiTopicsFactory, apiBundlesFactory, $scope) {
+      var getTopics, vm;
+      vm = this;
+      vm.message = 'Inside the topics controller';
+      getTopics = apiTopicsFactory;
+      vm.getBundles = apiBundlesFactory;
+      return this.list = getTopics();
     }
   ]);
 

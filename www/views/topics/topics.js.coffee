@@ -2,19 +2,32 @@ quizApp = angular.module "quizApp"
   
 
 quizApp.factory('apiTopicsFactory', ->
-  topics = ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"]
+  topics = [{id: 2, name: "Ruby"}, {id: 3, name: "OOP"}, {id: 4 , name:"JavaScript"}, {id: 5 , name:"HTML5"}, {id: 6 , name:"CSS3"}]
 
-  this.getTopics = -> 
+  getTopics = -> 
+    return topics
+
+  getTopics1 = (num) -> 
+    topics.push(num)
     return topics
   
-  return topics
+  return getTopics
   )
 
-quizApp.constant('topicsList', ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"] )
+quizApp.factory('apiBundlesFactory', ->
+  bundles = [{id: 1, topicId : 1, name: "Ruby Basics", difficulty: "easy"}, {id: 2, topic_id: 1, name: "Ruby PRO", difficulty: "hard"}]
   
+  getBundles = (topicId) ->
+    return _filter
+  
+  return getBundles
+  )
 
-quizApp.controller('TopicsListController', ['apiTopicsFactory', '$scope', 'topicsList', (apiTopicsFactory,topicsList, $scope)->
-  this.message = 'Inside the topics controller'
-  this.list = apiTopicsFactory
-  debugger
+quizApp.controller('TopicsListController', ['apiTopicsFactory','apiBundlesFactory', '$scope', (apiTopicsFactory, apiBundlesFactory, $scope)->
+  vm = this
+  vm.message = 'Inside the topics controller'
+  getTopics = apiTopicsFactory
+  vm.getBundles = apiBundlesFactory
+  this.list = getTopics()
   ])
+
