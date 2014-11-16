@@ -1,4 +1,5 @@
 div(ng-controller="TopicsListController as topics") 
   h1 These are the topics nijacka
-  h1(ng-repeat="topic in list") {{topic}}
-  p This is the message: {{message}}
+  div(ng-repeat="topic in topics.list")
+    h1 {{topic}}
+  p This is the message: {{topics.message}}

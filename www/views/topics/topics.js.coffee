@@ -1,19 +1,20 @@
-app = angular.module "quizApp"
+quizApp = angular.module "quizApp"
+  
 
-
-TopicsFactory = ->
+quizApp.factory('apiTopicsFactory', ->
   topics = ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"]
 
-  getTopics = -> 
+  this.getTopics = -> 
     return topics
   
   return topics
+  )
 
-app.factory('Topics', TopicsFactory)
+quizApp.constant('topicsList', ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"] )
   
 
-app.controller('TopicsListController', ['Topics', '$scope', (Topics, $scope)->
-  $scope.list = Topics.getTopics()
-  $scope.message = 'Inside the topics controller'
+quizApp.controller('TopicsListController', ['apiTopicsFactory', '$scope', 'topicsList', (apiTopicsFactory,topicsList, $scope)->
+  this.message = 'Inside the topics controller'
+  this.list = apiTopicsFactory
   debugger
   ])

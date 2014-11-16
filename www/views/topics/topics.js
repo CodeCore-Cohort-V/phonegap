@@ -1,23 +1,23 @@
 (function() {
-  var TopicsFactory, app;
+  var quizApp;
 
-  app = angular.module("quizApp");
+  quizApp = angular.module("quizApp");
 
-  TopicsFactory = function() {
-    var getTopics, topics;
+  quizApp.factory('apiTopicsFactory', function() {
+    var topics;
     topics = ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"];
-    getTopics = function() {
+    this.getTopics = function() {
       return topics;
     };
     return topics;
-  };
+  });
 
-  app.factory('Topics', TopicsFactory);
+  quizApp.constant('topicsList', ["Ruby", "OOP", "JavaScript", "HTML5", "CSS3"]);
 
-  app.controller('TopicsListController', [
-    'Topics', '$scope', function(Topics, $scope) {
-      $scope.list = Topics.getTopics();
-      $scope.message = 'Inside the topics controller';
+  quizApp.controller('TopicsListController', [
+    'apiTopicsFactory', '$scope', 'topicsList', function(apiTopicsFactory, topicsList, $scope) {
+      this.message = 'Inside the topics controller';
+      this.list = apiTopicsFactory;
       debugger;
     }
   ]);
