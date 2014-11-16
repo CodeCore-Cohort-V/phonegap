@@ -36,19 +36,17 @@
 
 </head>
 <body ng-app="quizApp">
-<!--         <div class="app">
-            <h1>CODECORE</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-            <md-content>
-                <md-button class="md-raised md-warn">Primary</md-button>
-                <md-button class="md-raised md-primary">Warn</md-button>
-            </md-content>
-        </div> -->
+  <md-toolbar>
+  <br>
+    <div layout="horizontal md-toolbar-tools">
+      <md-button class="md-default md-toolbar-tools" ui-sref="bundles">State 1</md-button>
+      <md-button class="md-default md-toolbar-tools" ui-sref="quizzing">State 2</md-button>
+      <md-button class="md-default md-toolbar-tools" ui-sref="home">Topics</md-button>
+    </div>
+  </md-toolbar>
 
-        <h1> QuizApp </h1>
+  <div ui-view>
+    <h1> QuizApp </h1>
     <div ng-init="homeMenu = [
         {name:'Browse All Topics'},
         {name:'Start Quizzing!'}
@@ -56,12 +54,10 @@
     </div>
     <div class= "main">
         <div class="homeMenu">      
-            <div ui-view></div>
-            <!-- We'll also add some navigation: -->
-            <md-button class="md-raised md-primary" ui-sref="state1">State 1</md-button>
-            <md-button class="md-raised md-primary" ui-sref="state2">State 2</md-button>
+
         </div>
     </div>
+  </div>
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

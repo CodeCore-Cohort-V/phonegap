@@ -12,6 +12,20 @@ module.exports = function(grunt) {
         }
       }
     },
+    jade: {
+      compile: {
+        options: {
+          data: {}
+        },
+        files: [{
+          expand: true,
+          cwd: 'www/views',
+          src: [ '**/*.jade' ],
+          dest: 'www/views',
+          ext: '.html'
+        }]
+      }
+    },
     coffee: {
       scripts: {
         expand: true,
@@ -42,10 +56,15 @@ module.exports = function(grunt) {
       views: {
         files: ['www/views/**/*.coffee'],
         tasks: ['coffee']
+      },
+      jades: {
+        files: ['www/views/**/*.html.jade'],
+        tasks: ['jade']
       }
     }
   })
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-coffee');
+grunt.loadNpmTasks('grunt-contrib-less');
+grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-coffee');
+grunt.loadNpmTasks('grunt-contrib-jade');
 };

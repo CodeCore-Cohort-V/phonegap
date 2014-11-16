@@ -13,14 +13,22 @@
 
   app.config(function($stateProvider, $urlRouterProvider) {
   //
-  // For any unmatched url, redirect to /state1
-  $urlRouterProvider.otherwise("/state1");
+  // For any unmatched url, redirect to /home
+  $urlRouterProvider.otherwise("/home");
   //
   // Now set up the states
   $stateProvider
-    .state('state1', {
-      url: "/state1",
-      templateUrl: "views/state1.html"
+    .state('bundles', {
+      url: "/bundles",
+      templateUrl: "views/browse_bundles/browse_bundles.html.jade"
+    })
+    .state('quizzing', {
+      url: "/quizzing",
+      templateUrl: "views/quizzing/quizzing.html"
+    })
+    .state('home', {
+      url: "/home",
+      templateUrl: "views/home/home.html"
     })
     .state('state1.list', {
       url: "/list",

@@ -36,18 +36,15 @@
 
 </head>
 <body ng-app="quizApp">
+  <md-toolbar>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <md-button class="md-primary" ui-sref="state1">State 1</md-button>
-  <md-button class="md-primary" ui-sref="state2">State 2</md-button>
+    <div layout="horizontal md-toolbar-tools">
+      <md-button class="md-default md-toolbar-tools" ui-sref="bundles">Browse</md-button>
+      <md-button class="md-default md-toolbar-tools" ui-sref="quizzing">Quiz</md-button>
+      <md-button class="md-default md-toolbar-tools" ui-sref="home">Home</md-button>
+    </div>
+  </md-toolbar>
+
   <div ui-view>
     <h1> QuizApp </h1>
     <div ng-init="homeMenu = [
