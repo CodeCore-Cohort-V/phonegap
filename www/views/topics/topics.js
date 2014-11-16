@@ -49,7 +49,11 @@
       }
     ];
     getBundles = function(topicId) {
-      return _filter;
+      return _.filter(bundles, function(bundle) {
+        if (bundle.id === topicId) {
+
+        }
+      });
     };
     return getBundles;
   });

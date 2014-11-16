@@ -18,7 +18,8 @@ quizApp.factory('apiBundlesFactory', ->
   bundles = [{id: 1, topicId : 1, name: "Ruby Basics", difficulty: "easy"}, {id: 2, topic_id: 1, name: "Ruby PRO", difficulty: "hard"}]
   
   getBundles = (topicId) ->
-    return _filter
+    return _.filter(bundles, (bundle)->
+      return if bundle.id == topicId)
   
   return getBundles
   )
