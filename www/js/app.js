@@ -34,11 +34,25 @@
       url: "/topics",
       templateUrl: "views/topics/topics.html"
     })
-    .state('state1.list', {
+    .state('topics.list', {
       url: "/list",
-      templateUrl: "views/state1.list.html",
-      controller: function($scope) {
-        $scope.items = ["A", "List", "Of", "Items"];
+      views:{ 
+        "content": {
+          templateUrl: "views/topics/topicsList.html",
+          controller: function($scope) {
+            $scope.items = ["A", "List", "Of", "Items"];
+          }
+        }
+      }
+    }).state('topics.list2', {
+      url: "/list",
+      views:{ 
+        "content2": {
+          templateUrl: "views/topics/topicsList.html",
+          controller: function($scope) {
+            $scope.items = ["A", "SECOND", "list","Of", "Items"];
+          }
+        }
       }
     })
     .state('state2', {

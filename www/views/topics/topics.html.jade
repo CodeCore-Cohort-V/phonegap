@@ -1,10 +1,9 @@
 div(ng-controller="TopicsListController as topics" layout="vertical") 
-  h1 These are the topics nijacka
-  div(ng-repeat="topic in topics.list")
-    md-button(ng-click='somefunc(topic)')
-      h1{{topic.name}}
-    div(ng-show='when you click topic')
-      md-button(ng-repeat="topics.getBundles(topic)")
-        h3 {{bundle.name}} | {{bundle.difficulty}}
-
-  p This is the message: {{topics.message}}
+  md-list
+    md-item(ng-repeat="topic in topics.list")
+      md-card  
+        md-item-content
+          .md-tile-content
+            md-button(class="" ui-sref="topics.list{{topic.id}}" layout layout-align="center center")  
+              h3 {{topic.name}}
+            div(ui-view="content{{topic.id}}")

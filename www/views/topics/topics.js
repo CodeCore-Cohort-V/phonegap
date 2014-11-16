@@ -5,6 +5,7 @@
 
   quizApp.factory('apiTopicsFactory', function() {
     var getTopics, getTopics1, topics;
+
     topics = [
       {
         id: 2,
