@@ -5,6 +5,18 @@
 
   var app = angular.module('quizApp', ['ngMaterial', 'ngRoute', 'ui.router']);
 
+  app.controller('mainCtrl', [
+   '$scope', function($scope) {
+     var vm;
+     vm = $scope;
+     $scope.message = "Fuck this majestic Goat";
+     vm.setBundleId = function(id) {
+       vm.bundleId = id;
+     };
+     return true;
+   }
+   ]);
+
   app.controller('YourController', ['$scope', '$location',function($scope, $location){ 
     $scope.goNext = function (hash) { 
       $location.path(hash);
@@ -18,23 +30,22 @@
   //
   // Now set up the states
   $stateProvider
-    .state('bundles', {
-      url: "/bundles",
-      templateUrl: "views/browse_bundles/browse_bundles.html"
-    })
-    .state('quizzing', {
-      url: "/quizzing",
-      templateUrl: "views/quizzing/quizzing.html"
-    })
-    .state('home', {
-      url: "/home",
-      templateUrl: "views/home/home.html"
-    })
-    .state('topics', {
-      url: "/topics",
-      templateUrl: "views/topics/topics.html"
-    })
-
+  .state('bundles', {
+    url: "/bundles",
+    templateUrl: "views/browse_bundles/browse_bundles.html"
+  })
+  .state('quizzing', {
+    url: "/quizzing",
+    templateUrl: "views/quizzing/quizzing.html"
+  })
+  .state('home', {
+    url: "/home",
+    templateUrl: "views/home/home.html"
+  })
+  .state('topics', {
+    url: "/topics",
+    templateUrl: "views/topics/topics.html"
+  })
     // ANGULAR
     .state('topics.list1', {
       url: "/list",
