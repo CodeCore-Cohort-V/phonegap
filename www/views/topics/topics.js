@@ -25,14 +25,19 @@
         }
       ];
       getTopics = function() {
-        return $http.get("http://glacial-peak-2160.herokuapp.com/api/topics").success(function(data) {
-          return data.topics;
+        var list;
+        list = [];
+        $http.get("views/data/data.json").success(function(data) {
+          return list = data.topics;
+        }).error(function(data) {
+          return false;
         });
+        return list;
       };
       getTopics1 = function() {
         return topics;
       };
-      return getTopics1;
+      return getTopics;
     }
   ]);
 
