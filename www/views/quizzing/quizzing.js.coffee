@@ -1,15 +1,15 @@
 quizApp = angular.module "quizApp"
 
-quizApp.factory('getQuestionsFactory', ['$http', ($http)->
-  
-  ])
 
-# quizApp.controller('mainCtrl', ['$scope', ($scope) ->
-#   vm = this
-#   vm.bundleId
-#   vm.setBundleId = (id) ->
-#     vm.bundleId = id
-  
-#   return true
-#   ])
+quizApp.controller('mainCtrl', ['$scope', 'apiQuestionsFactory', ($scope, apiQuestionsFactory) ->
+  vm = $scope
+  vm.bundleId
+  getQuestions = apiQuestionsFactory
+  vm.setBundleId = (bundle) ->
+    vm.bundle = bundle
+    vm.questions = getQuestions()
+
+
+  return true
+  ])
   

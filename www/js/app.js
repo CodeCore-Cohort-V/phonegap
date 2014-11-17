@@ -5,17 +5,19 @@
 
   var app = angular.module('quizApp', ['ngMaterial', 'ngRoute', 'ui.router']);
 
-  app.controller('mainCtrl', [
-   '$scope', function($scope) {
-     var vm;
-     vm = $scope;
-     $scope.message = "Fuck this majestic Goat";
-     vm.setBundleId = function(id) {
-       vm.bundleId = id;
-     };
-     return true;
-   }
-   ]);
+  // app.controller('mainCtrl', [
+  //   '$scope', 'apiQuestionsFactory', function($scope, apiQuestionsFactory) {
+  //     var getQuestions, vm;
+  //     vm = $scope;
+  //     vm.bundleId;
+  //     getQuestions = apiQuestionsFactory;
+  //     vm.setBundleId = function(id) {
+  //       vm.bundleId = id;
+  //       return vm.questions = getQuestions();
+  //     };
+  //     return true;
+  //   }
+  // ]);
 
   app.controller('YourController', ['$scope', '$location',function($scope, $location){ 
     $scope.goNext = function (hash) { 
