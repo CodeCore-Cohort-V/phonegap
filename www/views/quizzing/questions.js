@@ -8,7 +8,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -32,7 +32,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -56,7 +56,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -80,7 +80,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -104,7 +104,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -128,7 +128,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -152,7 +152,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
@@ -176,7 +176,7 @@ quizApp.factory('apiQuestionsFactory', [
       "bundle_id": 1,
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "example": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "choice": [
+      "choices": [
       {
         "content": "Answer A",
         "correct": true
