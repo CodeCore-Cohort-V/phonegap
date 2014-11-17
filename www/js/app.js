@@ -34,41 +34,86 @@
       url: "/topics",
       templateUrl: "views/topics/topics.html"
     })
+
+    // ALL
     .state('topics.list', {
-      url: "/list",
-      views:{ 
-        "content": {
-          templateUrl: "views/topics/topicsList.html",
-          controller: function($scope) {
-            $scope.items = ["A", "List", "Of", "Items"];
-          }
-        }
-      }
-    // RUBY
-    }).state('topics.list2', {
-      url: "/list",
-      views:{ 
+      url: "/list/:topicID", 
+      views:{
         "content2": {
           templateUrl: "views/topics/topicsList.html",
-          controller: function($scope, apiBundlesFactory) {
+          controller: function($scope, $stateParams, apiBundlesFactory){
+            topicID = $stateParams.topicID
             getBundles = apiBundlesFactory;
-            $scope.bundles = getBundles(2);
-            $scope.items = ["A", "SECOND", "list","Of", "Items"];
+            $scope.bundles = getBundles(topicID);
           }
         }
-      }
-    })
-    .state('state2', {
-      url: "/state2",
-      templateUrl: "views/state2.html"
-    })
-    .state('state2.list', {
-      url: "/list",
-      templateUrl: "views/state2.list.html",
-      controller: function($scope) {
-        $scope.things = ["A", "Set", "Of", "Things"];
-      }
+      }   
     });
+    // // RUBY
+    // .state('topics.list2', {
+    //   url: "/list",
+    //   views:{ 
+    //     "content2": {
+    //       templateUrl: "views/topics/topicsList.html",
+    //       controller: function($scope, apiBundlesFactory) {
+    //         getBundles = apiBundlesFactory;
+    //         $scope.bundles = getBundles(2);
+    //       }
+    //     }
+    //   }
+    // })
+    // // OOP
+    // .state('topics.list3', {
+    //   url: "/list",
+    //   views:{ 
+    //     "content3": {
+    //       templateUrl: "views/topics/topicsList.html",
+    //       controller: function($scope, apiBundlesFactory) {
+    //         getBundles = apiBundlesFactory;
+    //         $scope.bundles = getBundles(3);
+    //       }
+    //     }
+    //   }
+    // })
+    // // JS
+    // .state('topics.list4', {
+    //   url: "/list",
+    //   views:{ 
+    //     "content4": {
+    //       templateUrl: "views/topics/topicsList.html",
+    //       controller: function($scope, apiBundlesFactory) {
+    //         getBundles = apiBundlesFactory;
+    //         $scope.bundles = getBundles(4);
+    //       }
+    //     }
+    //   }
+    // })    
+    // // HTML5
+    // .state('topics.list5', {
+    //   url: "/list",
+    //   views:{ 
+    //     "content5": {
+    //       templateUrl: "views/topics/topicsList.html",
+    //       controller: function($scope, apiBundlesFactory) {
+    //         getBundles = apiBundlesFactory;
+    //         $scope.bundles = getBundles(5);
+    //       }
+    //     }
+    //   }
+    // })    
+    // // CSS3
+    // .state('topics.list6', {
+    //   url: "/list",
+    //   views:{ 
+    //     "content6": {
+    //       templateUrl: "views/topics/topicsList.html",
+    //       controller: function($scope, apiBundlesFactory) {
+    //         getBundles = apiBundlesFactory;
+    //         $scope.bundles = getBundles(6);
+    //       }
+    //     }
+    //   }
+    // });
   });
 
 
