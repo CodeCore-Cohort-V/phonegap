@@ -8,6 +8,9 @@
       var getTopics, getTopics1, topics;
       topics = [
         {
+          id: 1,
+          name: "Angular.js"
+        }, {
           id: 2,
           name: "Ruby"
         }, {
@@ -48,12 +51,42 @@
         {
           id: 1,
           topic_id: 1,
-          name: "Ruby Basics",
+          name: "Angular Basics",
           difficulty: "easy"
         }, {
           id: 2,
           topic_id: 2,
           name: "Ruby PRO",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 3,
+          name: "What is OOP",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 4,
+          name: "What is OOP",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 5,
+          name: "What is OOP",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 6,
+          name: "What is OOP",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 3,
+          name: "What is OOP",
+          difficulty: "hard"
+        }, {
+          id: 2,
+          topic_id: 4,
+          name: "What is OOP",
           difficulty: "hard"
         }
       ];
