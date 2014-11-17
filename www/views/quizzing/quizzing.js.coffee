@@ -3,7 +3,7 @@ quizApp = angular.module "quizApp"
 
 quizApp.controller('mainCtrl', ['$scope', 'apiQuestionsFactory', ($scope, apiQuestionsFactory) ->
   vm = $scope
-  vm.bundleId
+  vm.bundle
   getQuestions = apiQuestionsFactory
   vm.setBundleId = (bundle) ->
     vm.bundle = bundle

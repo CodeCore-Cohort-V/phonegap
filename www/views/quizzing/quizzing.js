@@ -7,7 +7,7 @@
     '$scope', 'apiQuestionsFactory', function($scope, apiQuestionsFactory) {
       var getQuestions, vm;
       vm = $scope;
-      vm.bundleId;
+      vm.bundle;
       getQuestions = apiQuestionsFactory;
       vm.setBundleId = function(bundle) {
         vm.bundle = bundle;
