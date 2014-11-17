@@ -22,7 +22,7 @@ quizApp.factory('apiTopicsFactory', ['$http', ($http)->
   ])
 
 quizApp.factory('apiBundlesFactory',['$http', ($http)->
-  bundles = [{id: 1, topic_id : 1, name: "Ruby Basics", difficulty: "easy"}, {id: 2, topic_id: 2, name: "Ruby PRO", difficulty: "hard"}]
+  bundles = [{id: 1, topic_id : 2, name: "Ruby Basics", difficulty: "easy"}, {id: 2, topic_id: 2, name: "Ruby PRO", difficulty: "hard"}]
   
   getBundles = (topicId) ->
     return _.filter(bundles, (bundle)->

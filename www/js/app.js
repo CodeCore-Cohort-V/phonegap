@@ -3,7 +3,7 @@
 
   // angular.module('quizApp', ['ngMaterial', 'ngRoute']);
 
-  var app = angular.module('quizApp', ['ngMaterial', 'ngRoute', 'ui.router']);
+  var app = angular.module('quizApp', ['ngMaterial', 'ngRoute', 'ui.router', 'ngAnimate']);
 
   // app.controller('mainCtrl', [
   //   '$scope', 'apiQuestionsFactory', function($scope, apiQuestionsFactory) {
@@ -50,7 +50,7 @@
   })
     // ANGULAR
     .state('topics.list1', {
-      url: "/list",
+      url: "/list/11",
       views:{ 
         "content1": {
           templateUrl: "views/topics/topicsList.html",
@@ -63,7 +63,7 @@
     })
     // RUBY
     .state('topics.list2', {
-      url: "/list",
+      url: "/list/2",
       views:{ 
         "content2": {
           templateUrl: "views/topics/topicsList.html",
@@ -76,7 +76,7 @@
     })
     // OOP
     .state('topics.list3', {
-      url: "/list",
+      url: "/list/3",
       views:{ 
         "content3": {
           templateUrl: "views/topics/topicsList.html",
@@ -89,7 +89,7 @@
     })
     // JS
     .state('topics.list4', {
-      url: "/list",
+      url: "/list/4",
       views:{ 
         "content4": {
           templateUrl: "views/topics/topicsList.html",
@@ -102,7 +102,7 @@
     })    
     // HTML5
     .state('topics.list5', {
-      url: "/list",
+      url: "/list/5",
       views:{ 
         "content5": {
           templateUrl: "views/topics/topicsList.html",
@@ -115,7 +115,7 @@
     })    
     // CSS3
     .state('topics.list6', {
-      url: "/list",
+      url: "/list/6",
       views:{ 
         "content6": {
           templateUrl: "views/topics/topicsList.html",

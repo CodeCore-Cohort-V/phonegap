@@ -1,9 +1,7 @@
 div(ng-controller="TopicsListController as topics" layout="vertical") 
-  md-list
-    md-item(ng-repeat="topic in topics.list")
-      md-card  
-        md-item-content
-          .md-tile-content
-            md-button(class="" ui-sref="topics.list{{topic.id}}" layout layout-align="center center")  
-              h3 {{topic.name}}
-            div(ui-view="content{{topic.id}}")
+  md-item(ng-repeat="topic in topics.list")
+    md-subheader(ui-sref="topics.list{{topic.id}}" layout layout-align="center center" class="topics") 
+      h2 {{topic.name}}
+    md-content(ui-view="content{{topic.id}}" )
+
+        

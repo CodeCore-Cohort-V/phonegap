@@ -1,3 +1,11 @@
-h1 In the quizzing view
-h2 {{bundle.name}}
-h3 {{message}}
+div(layout="vertical" layout-align="center center" layout-padding layout-fill)
+  md-card(layout-fill layout="vertical" layout-align="center center")
+    md-content
+      h1 {{bundle.name}}
+      h3 Difficulty: {{bundle.difficulty}}
+    div(layout="horizontal" layout-align="center center")
+      md-button(class="md-warn" ui-sref="topics")  
+        h1 Back
+      md-button(class="md-warn" ng-click="startBundle()" ui-sref="quizzing.item") 
+        h1 Start
+      

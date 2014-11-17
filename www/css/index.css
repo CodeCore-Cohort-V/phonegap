@@ -160,3 +160,9 @@ font-size: 14px; }
 .queued {
     background-color: #E8E8E8 !important;
 }
+.topics, .md-item .topics{
+    border-bottom: 1px solid #E8E8E8 !important;
+}
+.md-subheader {
+    margin-right: 0px !important; 
+}

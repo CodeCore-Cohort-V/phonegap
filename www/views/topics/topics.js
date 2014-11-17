@@ -47,7 +47,7 @@
       bundles = [
         {
           id: 1,
-          topic_id: 1,
+          topic_id: 2,
           name: "Ruby Basics",
           difficulty: "easy"
         }, {
