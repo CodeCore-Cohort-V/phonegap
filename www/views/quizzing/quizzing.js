@@ -10,6 +10,7 @@
       vm.bundle;
       getQuestions = apiQuestionsFactory;
       vm.setBundleId = function(bundle) {
+        vm.message = "Foat the Goat";
         vm.bundle = bundle;
         return vm.questions = getQuestions();
       };

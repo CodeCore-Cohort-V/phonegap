@@ -6,6 +6,7 @@ quizApp.controller('mainCtrl', ['$scope', 'apiQuestionsFactory', ($scope, apiQue
   vm.bundle
   getQuestions = apiQuestionsFactory
   vm.setBundleId = (bundle) ->
+    vm.message = "Foat the Goat"
     vm.bundle = bundle
     vm.questions = getQuestions()
 
