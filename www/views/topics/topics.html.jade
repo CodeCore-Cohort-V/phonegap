@@ -4,6 +4,6 @@ div(ng-controller="TopicsListController as topics" layout="vertical")
       md-card  
         md-item-content
           .md-tile-content
-            md-button(class="" ui-sref="topics.list({topicID: {{topic.id}} })" layout layout-align="center center")  
+            md-button(class="" ui-sref="topics.list{{topic.id}}" layout layout-align="center center")  
               h3 {{topic.name}}
             div(ui-view="content{{topic.id}}")
