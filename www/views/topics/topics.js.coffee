@@ -18,7 +18,7 @@ quizApp.factory('apiTopicsFactory', ['$http', ($http)->
   getTopics1 = -> 
     return topics
   
-  return getTopics
+  return getTopics1
   ])
 
 quizApp.factory('apiBundlesFactory',['$http', ($http)->
