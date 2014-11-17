@@ -1,7 +1,7 @@
 div(ng-controller="TopicsListController as topics" layout="vertical") 
-  md-item(ng-repeat="topic in topics.list")
+  md-item(ng-repeat="topic in topics.list" class="topics")
     md-subheader(ui-sref="topics.list{{topic.id}}" layout layout-align="center center" class="topics") 
       h2 {{topic.name}}
-    md-content(ui-view="content{{topic.id}}" )
+    md-list(ui-view="content{{topic.id}}" )
 
         
